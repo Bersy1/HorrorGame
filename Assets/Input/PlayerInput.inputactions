@@ -67,6 +67,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "OpenInv",
+                    "type": "Button",
+                    "id": "e8c58f1e-a370-4530-9595-0f8c5fd9d7cc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -190,6 +199,17 @@
                     "action": "Lighter",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f971404-9ce1-4922-a8ab-8615665d3302",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenInv",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -283,6 +303,15 @@
                     "type": "PassThrough",
                     "id": "96f6cebc-c081-41c2-ab4f-790d05221c56",
                     "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CloseInv",
+                    "type": "Button",
+                    "id": "ceb4f2de-12d0-4e89-9531-591aa9f36c9d",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -704,6 +733,17 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd662ed3-d81b-481b-aaa2-9fe41fb9a620",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseInv",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
